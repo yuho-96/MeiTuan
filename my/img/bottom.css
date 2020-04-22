@@ -1,0 +1,14 @@
+.bottom-bar {
+    width: 100%;
+    height: 1.333333rem;
+    border-top: .026667rem solid #e6e6e6;
+}
+
+.bottom-bar .btn-item {
+    font-size: .25rem;
+}
+.bottom-bar .tab-icon {
+    margin-bottom: .1em;
+    width: 0.6rem;
+    height: 0.6rem;
+}

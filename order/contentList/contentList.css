@@ -1,0 +1,91 @@
+.order-item {
+    border-top: .346667rem solid #efefef;
+
+}
+.order-item .order-item-inner {
+    display: flex;
+    padding-bottom: .48rem;
+    border-bottom: .026667rem solid #e0e0e0;
+}
+.order-item .item-img {
+    width: 1.066667rem;
+    height: 1.066667rem;
+    margin-top: .213333rem;
+    margin-left: .426667rem;
+    display: block;
+    border-radius: 50%;
+}
+.order-item .item-right {
+    flex: 1;
+    margin-left: .4rem;
+    font-size: .373333rem;
+}
+.order-item .item-top {
+    height: 1.466667rem;
+    padding-top: .053333rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+.order-item .order-name {
+    font-size: 16px;
+    width: 180px;
+    height: 16px;
+    font-weight: 600;
+}
+.order-item .arrow {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #999999;
+    border-width: 1px 1px 0 0;
+    transform: rotate(45deg);
+    -webkit-transform: 45deg;
+}
+.order-item .order-state {
+    font-size: 14px;
+    margin-left: 60px;
+    color: #999999;
+}
+.order-item .product-item {
+    font-size: 14px;
+    color: #666666;
+    margin-top: 12px;
+}
+.order-item .p-conunt {
+    float: right;
+    margin-right: 15px;
+}
+.p-total-conunt {
+    float: right;
+    margin-right: 15px;
+    font-size: 12px;
+}
+.order-item .total-price {
+    font-size: 14px;
+    color: #151515;
+    margin-left: 2px;
+    letter-spacing: 1px;
+}
+.order-item .evalution {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.order-item .evalution-btn {
+    float: right;
+    width: 100px;
+    height: 32px;
+    color: #6b450a;
+    background-color: #ffd161;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 10px;
+}
+.loading {
+    width: 100%;
+    height: 2.666667rem;
+    text-align: center;
+    margin-top: .533333rem;
+    margin-bottom: 1.6rem;
+    color: #7c7c7c;
+}

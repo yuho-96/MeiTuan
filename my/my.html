@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0，maximum-scale=1.0 user-scalable=no">
+    <script>
+        (function(){
+            var docEl = document.documentElement;
+
+            function setRemUnit(){
+                // 获取rem的基准值
+                var rem = docEl.clientWidth / 10;
+
+                // 动态设置html根元素的font-size
+                docEl.style.fontSize = rem + "px";
+            }
+            setRemUnit();
+
+            // 窗口大小变化时，触发（有浏览器兼容问题）
+            window.addEventListener("resize",setRemUnit);
+
+            // 窗口出现在当前屏幕时
+            window.addEventListener("pageshow",function(e){
+                if (e.persisted) {
+                    setRemUnit();
+                }
+            })
+        })();
+    </script>
+    <title>我的</title>
+    <link rel="stylesheet" href="../lib/reset.css">
+    <link rel="stylesheet" href="../common/bottomBar/bottomBar.css">
+    <link rel="stylesheet" href="./img/bottom.css">
+    <link rel="stylesheet" href="./my.css">
+</head>
+<body>
+    <!-- 头部开始 -->
+    <div class="my">
+        <div class="header">
+            <img src="http://i.waimai.meituan.com/static/img/default-avatar.png" alt="" class="avater">
+            <div class="nickname">美团小棋手</div>
+        </div>
+
+        <div class="content">
+            <ul class="items">
+                <li class="address">收货地址管理</li>
+                <li class="money">商家代金券</li>
+            </ul>
+            <ul class="items">
+                <li class="email">意见反馈</li>
+                <li class="question">常见问题</li>
+            </ul>
+            <p class="tel">客服时间：&nbsp;没时间</p>
+            <p class="time">服务时间：&nbsp;嗯，没时间</p>
+        </div>
+    </div>
+    <!-- 头部结束 -->
+
+    <!-- 底部栏开始 -->
+    <div class="bottom-bar"></div>
+    <!-- 底部栏结束 -->
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../common/bottomBar/bottomBar.js"></script>
+</body>
+</html>

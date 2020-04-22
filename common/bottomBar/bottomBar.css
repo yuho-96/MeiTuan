@@ -1,0 +1,47 @@
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* height: 1.333333rem; */
+    height: 2.666667rem;
+    display: flex;
+    border-top: .026667rem solid #e6e6e6;
+    background-color: rgba(246,246,246,0.95);
+}
+
+.bottom-bar .btn-item {
+    flex: 1;
+    display: flex;
+    font-size: .6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #999999;
+}
+.bottom-bar .tab-icon {
+    margin-bottom: .2rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    background-size: cover;
+}
+.bottom-bar .index.btn-item .tab-icon {
+    background-image: url('../img/homeIcon.png');
+}
+.bottom-bar .my.btn-item .tab-icon {
+    background-image: url('../img/myIcon.png');
+}
+.bottom-bar .order.btn-item .tab-icon {
+    background-image: url('../img/orderIcon.png');
+}
+.bottom-bar .btn-item.active {
+    color: #000000;
+}
+.bottom-bar .index.btn-item.active .tab-icon {
+    background-image: url('../img/homeIconActive.png');
+}
+.bottom-bar .order.btn-item.active .tab-icon {
+    background-image: url('../img/orderIconActive.png');
+}
+.bottom-bar .my.btn-item.active .tab-icon {
+    background-image: url('../img/myIconActive.png');
+}

@@ -1,0 +1,106 @@
+.list-content {
+    overflow: hidden;
+    padding-bottom: 3.125rem;
+}
+.list-content .list-title {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: .875rem;
+    margin-bottom: .3125rem;
+}
+.list-content .title-line {
+    display: inline-block;
+    border-bottom: .0625rem solid #949494;
+    height: .0625rem;
+    width: 1.875rem;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    margin-bottom: .25rem;
+}
+.loading {
+    padding-bottom: .266667rem;
+    padding-top: .266667rem;
+    font-size: .8rem;
+    text-align: center;
+    color: #ccc;
+}
+.r-item-content {
+    display: flex;
+    padding-top: .9375rem;
+    padding-bottom: .9375rem;
+    margin-right: .625rem;
+    margin-left: .625rem;
+    color: #656565;
+    position: relative;
+}
+.r-item-content .item-img {
+    width: 5.375rem;
+    height: 4.0625rem;
+    border: .0625rem solid #e4e4e4;
+    position: relative;
+}
+.r-item-content .item-info-content {
+    flex: 1;
+    margin-left: .4375rem;
+    overflow: hidden;
+
+}
+.r-item-content .brand {
+    position: absolute;
+    left: .0625rem;
+    top: 1rem;
+    font-size: .75rem;
+    padding: .125rem;
+    color: #ffffff;
+}
+.r-item-content .brand-pin {
+    background-color: #ffa627;
+}
+.r-item-content .brand-xin {
+    background-color: #21c56c;
+}
+.r-item-content .item-title {
+    margin-top: .1875rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333333;
+}
+.r-item-content .item-desc {
+    margin-top: .8125rem;
+    font-size: .75rem;
+}
+.r-item-content .item-count {
+    float: left;
+    margin-left: .3125rem;
+}
+.r-item-content .item-score {
+    float: left;
+}
+.r-item-content .item-time {
+    float: right;
+}
+.r-item-content .item-distance {
+    float: right;
+}
+.r-item-content .item-price {
+    margin-top: .625rem;
+    font-size: .75rem;
+    height: 1.5rem;
+}
+.r-item-content .other-info {
+    color: #898989;
+    margin-top: .4375rem;
+    font-size: .75rem;
+    display: flex;
+
+}
+.r-item-content .other-tag {
+    width: .875rem;
+    height: .875rem;
+}
+.other-content {
+    margin-left: 3px;
+    height: .875rem;
+    width: 14.375rem;
+    margin-top: .026667rem;
+}
